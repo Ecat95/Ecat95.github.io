@@ -32,7 +32,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #ad77ad;
     /* Green background */
     color: #fff;
 }
@@ -58,7 +58,7 @@ html {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
+    /* transition: color 0.3s, text-decoration 0.3s, background-color 0.3s; */
     padding: 5px 10px;
 }
 
@@ -66,7 +66,7 @@ html {
 .nav-links a.active {
     color: #e0e0e0;
     /* Lighter color for active/hover */
-    background-color: #1c7430;
+    /* background-color: rgba(128, 0, 128, 0.401); */
     /* Darker green background on hover */
     border-radius: 4px;
     /* Optional: rounded corners */
@@ -95,7 +95,7 @@ html {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #28a745;
+        background-color: purple;
         /* Green background for mobile view */
     }
 
@@ -119,10 +119,12 @@ body {
 }
 
 body {
-    background: antiquewhite;
+    background: ghostwhite;
     margin: 0;
 }
-
+p{
+    text-indent: 30px;
+}
 /* links */
 a {
     color: #d7acd7;
@@ -138,8 +140,9 @@ a {
     
 }
 
+
 a:hover {
-    color: #20b54d;
+    color: #0c110d;
     text-decoration: none;
 }
 
@@ -148,7 +151,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #3c8453;
+    color: #0c0e0c;
 }
 
 .btn {
@@ -177,7 +180,7 @@ footer a:hover {
     flex: 1 0 auto;
 }
 .content-bg {
-background: rgb(255 255 255 / 0.9);
+background: rgba(255, 255, 255, 0.8);
 padding: 30px;
 
 }
