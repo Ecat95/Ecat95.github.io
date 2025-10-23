@@ -187,13 +187,13 @@ padding: 30px;
 
 /* Resume
 ------------------*/
-.resume header::before {
+/* .resume header::before {
     background: url(../images/spooked.png) top ;
     background-size: cover;
 content: "";
 display: block;
 height: 375px;
-}
+} */
 .resume-sec {
 margin-bottom: 50px;
 
