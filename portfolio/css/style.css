@@ -20,7 +20,7 @@ html {
 *:before,
 *:after {
     /* box-sizing: inherit; */
-     margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -59,7 +59,7 @@ html {
     text-decoration: none;
     font-size: 18px;
     /* transition: color 0.3s, text-decoration 0.3s, background-color 0.3s; */
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 
 .nav-links a:hover,
@@ -122,28 +122,36 @@ body {
     background: ghostwhite;
     margin: 0;
 }
-p{
+
+p {
     text-indent: 30px;
 }
+
 /* links */
 a {
     color: #d7acd7;
-    background:purple;
+    background: purple;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
-    display: inline-block;
-    padding: 7px;
+    /* display: inline-block; */
+    padding: 2px;
     letter-spacing: .1em;
-    line-height: 1;
-    border-radius: 6px;
-    
+    line-height: 1.5;
+    border-radius: 5px;
+
 }
 
 
 a:hover {
     color: #0c110d;
     text-decoration: none;
+}
+
+#homep {
+    display: block;
+    text-align: center;
+
 }
 
 footer a {
@@ -176,12 +184,13 @@ footer a:hover {
 }
 
 .home .content-wrapper {
-    
+
     flex: 1 0 auto;
 }
+
 .content-bg {
-background: rgba(255, 255, 255, 0.8);
-padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
 
 }
 
@@ -195,28 +204,41 @@ display: block;
 height: 375px;
 } */
 .resume-sec {
-margin-bottom: 50px;
+    margin-bottom: 50px;
 
 }
+
 .resume-sec h2 {
-border-bottom: 2px dashed #d3d4d6;
-
+    border-bottom: 2px dashed #d3d4d6;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 2px dashed #d3d4d6;
 }
-.download-link {
+
+/* .download-link {
 position: fixed;
 top: 5px;
 left: 5px;
-}
+} */
 /* Profile
 ------------------*/
 .project-item {
     display: flow-root;
     margin: 30px 0;
+
 }
-.project-item img{
+
+.project-item img {
     width: 300px;
     float: left;
     margin-right: 20px;
+}
+
+.project-item video {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
 }
 
 /* Work Experience
